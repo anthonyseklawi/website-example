@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title> contact us </title>
+<link rel="stylesheet" href="css\styles.css">
+<link rel="stylesheet" href="css\contact.css">
+
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="topnav" id="myTopnav">
+<nav>
+<div>
+<h1><img src="Images/kawasaki-logo.png" alt="Kawasaki" /></h1>
+</div>
+
+<ul>
+                <li><a href="Home.htm">Home</a></li>
+                <li><a href="teryx4.htm">Teryx4</a></li>
+                <li><a href="Gallery.htm">Gallery</a></li>
+                <li><a href="#" <button onclick="document.getElementById('id01').style.display='block'" >Login</button></a></li>
+				
+</ul>
+</nav>
+</div>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Images/motorcyclist.png" alt="Avatar"  class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button style="width:100%"type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+   <script src="scripts\script.js"></script>
+   <script src="scripts\"></script>
+ <a href="javascript:void(0);" style="display:none;"> </a>
+	<a href="" title="go to top" id="scroll" style="display:none;"><span></span></a>
+<div id="wrapper">
+
+<div id="contact_form_div" style="margin-bottom:75px; margin-top:75px;">
+ <p id="contact_label">CONTACT  US</p>
+ <form method="post" action="">
+  <p><input type="text" placeholder="Enter Name"></p>
+  <p><input type="text" placeholder="Enter Email"></p>
+  <p><input type="text" placeholder="Enter Contact No"></p>
+  <p><textarea placeholder="Enter Message"></textarea></p>
+  <p><input type="submit" value="SUBMIT"></p>
+ </form>
+</div>
+
+</div>
+<footer>
+
+        <div class="bar">
+    <div class="bar-wrap">
+        <ul class="links">
+           <li><a href="About.htm">About</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="legalpolicies.htm">Legal Policies</a></li>
+            <li><a href="terms and conditions.htm">Terms & Conditions</a></li>>
+        </ul>
+        <div class="social">
+            <a href="https://www.facebook.com/kawasaki" target="_blank" class="fb">
+                <span data-icon="f" class="icon"></span>
+                <span class="info">
+                    <span class="follow">Become a fan Facebook</span>
+                    <span class="num">9,999</span>
+                </span>
+            </a>
+            <a href="https://twitter.com/KawasakiUSA" target="_blank" class="tw">
+                <span data-icon="T" class="icon"></span>
+                <span class="info">
+                    <span class="follow">Follow us Twitter</span>
+                    <span class="num">9,999</span>
+                </span>
+            </a>
+            <a href="https://www.youtube.com/c/KawasakiUSA" target="_blank" class="rss">
+                <span data-icon="U" class="icon"></span>
+                <span class="info">
+                    <span class="follow">Subscribe RSS</span>
+                    <span class="num">9,999</span>
+                </span>
+            </a>
+			<a href="http://kawasakiusa.tumblr.com/" target="_blank" class="rss">
+                <span data-icon="t" class="icon"></span>
+                <span class="info">
+                    <span class="follow">Follow us Tumblr</span>
+                    <span class="num">9,999</span>
+                </span>
+            </a>
+        </div>
+        <div class="clear"></div>
+        <div class="copyright">&copy;  2018 Kawasaki Motors Corp., U.S.A.</div>
+    </div>
+</div>
+    </footer>
+</body>
+</html>

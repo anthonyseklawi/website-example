@@ -1,0 +1,322 @@
+body {
+	font-family: Verdana, sans-serif; 
+	margin: 0px
+	}
+.h{
+	color:#7e7e7e;
+	font-size: 4.4em;
+    line-height: .8;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+	font-weight: 300;
+	float:left;
+
+}
+.line {
+    border-bottom: 1px solid #ccc;
+    height: 54px;
+    width: 865px;
+    float: left;
+}
+
+section {
+	
+    border-bottom: 1px solid #ccc;
+	
+}
+.clearfix {
+    clear: both;
+}
+
+h2 {
+    color: #3c0;
+    font-weight: 400;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+#myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+#myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg7:hover {opacity: 0.7;}
+#myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg8:hover {opacity: 0.7;}
+#myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg9:hover {opacity: 0.7;}
+#myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg10:hover {opacity: 0.7;}
+#myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg11:hover {opacity: 0.7;}
+#myImg12 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg12:hover {opacity: 0.7;}
+
+.modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+
+.modal1-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 750px;
+}
+
+
+
+
+
+
+.close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 700px){
+    .modal1-content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/*for the video*/
+
+#wrapper { 
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+
+#home3 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+    margin-right: 5%;
+}
+#home4 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+}
+
+.clear{
+    clear: both;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+	#home3 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+	#home4 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
+
+
+@media only screen and (max-width: 1300px){
+
+.line{
+	width: 500px;
+}
+
+@media only screen and (max-width: 1200px){
+
+.line{
+	width: 400px;
+}
+
+@media only screen and (max-width: 1070px){
+.h {
+    font-size: 3.7rem;
+}
+.line{
+	width: 500px;
+}
+
+}
+@media only screen and (max-width: 1000px){
+
+.h {
+    font-size: 3.5rem;
+}
+.line{
+	width: 500px;
+}
+
+}
+@media only screen and (max-width: 900px){
+.h {
+    font-size: 3.0rem;
+}
+.line{
+	width:410px;
+}
+
+}
+@media only screen and (max-width: 800px){
+.h {
+    font-size: 2.8rem;
+}
+.line{
+	width:270px;
+}
+}
+@media only screen and (max-width: 36.1em){
+.h {
+    font-size: 2.7rem;
+	text-align:center;
+	line-height: 1.5;
+}
+.line{
+	width:200px;
+	
+}
+}
